@@ -137,7 +137,7 @@ The implemented solution provides:
 - Historical data analysis capabilities
 - Performance trend identification
 - Anomaly detection for preventive maintenance
-
+![FACT_TABLE](https://github.com/user-attachments/assets/6fced087-5b41-4894-a0c3-514bab4323f3)
 ![Results](https://github.com/user-attachments/assets/d762930b-d05c-4470-ab7c-e68cf1084c33)
 
 ## 🧪 Future Improvements
