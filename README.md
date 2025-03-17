@@ -2,7 +2,7 @@
 
 An end-to-end data engineering solution using Azure services to process vehicle metrics data, following the medallion architecture pattern.
 
-![Azure Architecture](./1.jpg)
+![Azure Architecture](.assets/images/1.jpg)
 
 ## 👋 Project Overview
 
