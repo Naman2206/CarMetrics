@@ -20,7 +20,7 @@ We've provisioned a resource group in Microsoft Azure containing:
 - *CarMetricServer* - SQL Server for relational data storage
 - *Azure_Databricks* - For data processing and transformation
 
-![Resource Group](https://via.placeholder.com/700x300?text=Azure+Resource+Group)
+![Resource Group](https://github.com/user-attachments/assets/5561911e-e108-459b-9125-06d454d96628)
 
 <details>
 <summary>📌 View Resource Group Configuration</summary>
