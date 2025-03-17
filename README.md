@@ -2,25 +2,25 @@
 
 An end-to-end data engineering solution using Azure services to process vehicle metrics data, following the medallion architecture pattern.
 
-![Azure Architecture](Image 1)
+![Azure Architecture](https://via.placeholder.com/800x400?text=Azure+Architecture+Overview)
 
 ## 📋 Project Overview
 
 This project implements a comprehensive data pipeline for car metrics data using Microsoft Azure services. The solution follows the medallion architecture pattern (Bronze → Silver → Gold) and includes incremental data loading, transformation, and analytics capabilities.
 
-## 🏗️ Azure Resources Setup
+## 🏗 Azure Resources Setup
 
 ### 1. Resource Group Creation
 
 We've provisioned a resource group in Microsoft Azure containing:
 
-- **Car Metrics Data Lake** - For raw and processed data storage
-- **Databricks Access Connector** - To securely connect Databricks with other services
-- **CarMetric_ADF** - Azure Data Factory instance for orchestration
-- **CarMetricServer** - SQL Server for relational data storage
-- **Azure_Databricks** - For data processing and transformation
+- *Car Metrics Data Lake* - For raw and processed data storage
+- *Databricks Access Connector* - To securely connect Databricks with other services
+- *CarMetric_ADF* - Azure Data Factory instance for orchestration
+- *CarMetricServer* - SQL Server for relational data storage
+- *Azure_Databricks* - For data processing and transformation
 
-![Resource Group](Image 2)
+![Resource Group](https://via.placeholder.com/700x300?text=Azure+Resource+Group)
 
 <details>
 <summary>📌 View Resource Group Configuration</summary>
@@ -39,7 +39,7 @@ Created multiple linked services to connect data sources and destinations:
 - SQL Server connection
 - Databricks workspace connection
 
-![Linked Services](Image 3)
+![Linked Services](https://via.placeholder.com/700x300?text=ADF+Linked+Services)
 
 <details>
 <summary>📌 View Linked Services Setup</summary>
@@ -52,7 +52,7 @@ Configuration details for connecting to GitHub repository, data lake storage, SQ
 #### i. Copy Data Pipeline
 Extracts data from GitHub source to SQL Server:
 
-![Copy Pipeline](Image 4)
+![Copy Pipeline](https://via.placeholder.com/700x300?text=GitHub+to+SQL+Copy+Pipeline)
 
 <details>
 <summary>📌 View Copy Pipeline Configuration</summary>
@@ -63,7 +63,7 @@ Pipeline configuration that copies car metrics data from the GitHub repository t
 #### ii. Incremental Pipeline
 Captures only new or changed records added to the source:
 
-![Incremental Pipeline](Image 5)
+![Incremental Pipeline](https://via.placeholder.com/700x300?text=Incremental+Data+Pipeline)
 
 <details>
 <summary>📌 View Incremental Pipeline Logic</summary>
@@ -71,13 +71,13 @@ Captures only new or changed records added to the source:
 Pipeline configuration that identifies and processes only new or changed records since the last pipeline run.
 </details>
 
-## 🗄️ Medallion Architecture
+## 🗄 Medallion Architecture
 
 ### 4. Storage Layers & Stored Procedures
 
 Implemented the medallion architecture with three container layers:
 
-![Medallion Architecture](Image 6)
+![Medallion Architecture](https://via.placeholder.com/700x400?text=Bronze-Silver-Gold+Architecture)
 
 #### Bronze Layer
 - Raw data ingestion
@@ -106,7 +106,7 @@ Details about the stored procedures used to move and transform data between the 
 
 Created Databricks notebooks for advanced transformations and dimensional modeling:
 
-![Databricks Integration](Image 7)
+![Databricks Integration](https://via.placeholder.com/700x300?text=Databricks+Integration)
 
 <details>
 <summary>📌 View Databricks Implementation</summary>
@@ -118,9 +118,9 @@ Overview of the Databricks notebooks used to create dimensional models from the 
 
 Created interactive dashboards using the gold layer fact tables:
 
-![Power BI Dashboard](Image 9)
+![Power BI Dashboard](https://via.placeholder.com/700x400?text=Car+Metrics+Power+BI+Dashboard)
 
-## 🛠️ How to Use This Repository
+## 🛠 How to Use This Repository
 
 1. Clone this repository
 2. Set up Azure resources using the provided ARM templates
@@ -139,7 +139,7 @@ The implemented solution provides:
 - Performance trend identification
 - Anomaly detection for preventive maintenance
 
-![Results](Image 8)
+![Results](https://via.placeholder.com/700x300?text=Key+Metrics+and+Results)
 
 ## 🧪 Future Improvements
 
@@ -152,4 +152,4 @@ The implemented solution provides:
 
 ## 📬 Contact
 
-Feel free to reach out for any questions or collaborations!
+Feel free to reach out for any questions or collaborations!
