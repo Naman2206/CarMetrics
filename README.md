@@ -76,7 +76,7 @@ Pipeline configuration that identifies and processes only new or changed records
 
 Implemented the medallion architecture with three container layers:
 
-![Medallion Architecture](https://via.placeholder.com/700x400?text=Bronze-Silver-Gold+Architecture)
+![Medallion Architecture](https://github.com/user-attachments/assets/c2221d79-6824-49b5-bc17-7a84c3e25b22)
 
 #### Bronze Layer
 - Raw data ingestion
@@ -105,7 +105,7 @@ Details about the stored procedures used to move and transform data between the 
 
 Created Databricks notebooks for advanced transformations and dimensional modeling:
 
-![Databricks Integration](https://via.placeholder.com/700x300?text=Databricks+Integration)
+![Databricks Integration](https://github.com/user-attachments/assets/2223da46-ee53-4495-afbe-340a64941509)
 
 <details>
 <summary>📌 View Databricks Implementation</summary>
@@ -117,7 +117,7 @@ Overview of the Databricks notebooks used to create dimensional models from the 
 
 Created interactive dashboards using the gold layer fact tables:
 
-![Power BI Dashboard](https://via.placeholder.com/700x400?text=Car+Metrics+Power+BI+Dashboard)
+![Power BI Dashboard](https://github.com/user-attachments/assets/d762930b-d05c-4470-ab7c-e68cf1084c33)
 
 ## 🛠 How to Use This Repository
 
@@ -138,7 +138,7 @@ The implemented solution provides:
 - Performance trend identification
 - Anomaly detection for preventive maintenance
 
-![Results](https://via.placeholder.com/700x300?text=Key+Metrics+and+Results)
+![Results](https://github.com/user-attachments/assets/d762930b-d05c-4470-ab7c-e68cf1084c33)
 
 ## 🧪 Future Improvements
 
