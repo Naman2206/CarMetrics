@@ -2,7 +2,7 @@
 
 An end-to-end data engineering solution using Azure services to process vehicle metrics data, following the medallion architecture pattern.
 
-![Azure Architecture]([https://via.placeholder.com/800x400?text=Azure+Architecture+Overview](https://raw.githubusercontent.com/Naman2206/CarMetrics/main/assets/images/1.jpg))
+![Azure Architecture]([[https://via.placeholder.com/800x400?text=Azure+Architecture+Overview](https://raw.githubusercontent.com/Naman2206/CarMetrics/main/assets/images/1.jpg](https://github.com/user-attachments/assets/9748e7db-cfba-4bc3-9faf-aee82e6bbf60)))
 
 ## 📋 Project Overview
 
