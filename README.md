@@ -2,7 +2,7 @@
 
 An end-to-end data engineering solution using Azure services to process vehicle metrics data, following the medallion architecture pattern.
 
-![Azure Architecture](https://via.placeholder.com/800x400?text=Azure+Architecture+Overview)
+![Azure Architecture]([https://via.placeholder.com/800x400?text=Azure+Architecture+Overview](https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%221.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-03-16T09%3A23%3A32.720Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fcacb1658be27494b%2F1.jpg%3FExpires%3D1836811413%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DAvBCDFEcDg-fyUhaFf1doaMT~MZ-82Ii1-TtmoHISktpmTDkrS~FC~vWLpvxduFuctUYNVyluArDYIFAFfKgl0XqX-05~yVbyGNDCxiU~cAzJ5o6XMcfbX8DG1x4Y7vyHxDb~zsImUxbSTmUcBUteHZy5mM6BRW5fsjmEFpBYyoLmT2sLkxC4WhIE6YKANfERWI~NzJR09KQAeYHNYpdi7f8acNRVManYV8pRX-zaj4wcXo0dxYArLNYkEhntu4A5f2dhmBXU5un~4MpZ7bOvq51p6EMATh1TMn0n5LGMtHNdp6XcdU-hzyH~nguuW9OQF4JEpilhKt15OR688Wrhg__%22%7D))
 
 ## 📋 Project Overview
 
