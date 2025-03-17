@@ -39,8 +39,7 @@ Created multiple linked services to connect data sources and destinations:
 - SQL Server connection
 - Databricks workspace connection
 
-![Linked Services](https://via.placeholder.com/700x300?text=ADF+Linked+Services)
-
+![Linked Services](https://github.com/user-attachments/assets/f2fb2fd4-a2da-4fe1-a1fd-e0cd03961fbf)
 <details>
 <summary>📌 View Linked Services Setup</summary>
 
@@ -52,7 +51,7 @@ Configuration details for connecting to GitHub repository, data lake storage, SQ
 #### i. Copy Data Pipeline
 Extracts data from GitHub source to SQL Server:
 
-![Copy Pipeline](https://via.placeholder.com/700x300?text=GitHub+to+SQL+Copy+Pipeline)
+![Copy Pipeline](https://github.com/user-attachments/assets/085bf4f4-0462-4c66-8304-5e050bb7d5a1)
 
 <details>
 <summary>📌 View Copy Pipeline Configuration</summary>
@@ -63,7 +62,7 @@ Pipeline configuration that copies car metrics data from the GitHub repository t
 #### ii. Incremental Pipeline
 Captures only new or changed records added to the source:
 
-![Incremental Pipeline](https://via.placeholder.com/700x300?text=Incremental+Data+Pipeline)
+![Incremental Pipeline](https://github.com/user-attachments/assets/c3be2be2-9510-42eb-9c99-08c223966fe4)
 
 <details>
 <summary>📌 View Incremental Pipeline Logic</summary>
